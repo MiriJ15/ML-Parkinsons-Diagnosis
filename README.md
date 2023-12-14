@@ -31,5 +31,17 @@ The project is in a Jupyter Notebook, divided into cells for a step-by-step anal
 - Install required libraries.
 - Run the Jupyter Notebook, observing the output of each cell.
 
+## Results
+Model performance based on ROC-AUC scores:
+- Logistic Regression: ROC-AUC Score: 0.8119 (+/- 0.1369)
+- SVM: ROC-AUC Score: 0.7763 (+/- 0.0915)
+- Random Forest: ROC-AUC Score: 0.7543 (+/- 0.1690)
+- Gradient Boosting: ROC-AUC Score: 0.7359 (+/- 0.1956)
+- XGBClassifier: ROC-AUC Score: 0.7463 (+/- 0.1871)
+- Ensemble Model: ROC-AUC Score: 0.7940 (+/- 0.1402)
+
+### Additional Performance Metric
+- XGBClassifier Accuracy: 94.87%
+
 ## Conclusion
-This project demonstrates machine learning applications in medical diagnostics, particularly for handling imbalanced datasets in biomedical fields.
+This project demonstrates machine learning applications in medical diagnostics, particularly for handling imbalanced datasets in biomedical fields. The comparative analysis of different models indicates that Logistic Regression performed best in our trials.
