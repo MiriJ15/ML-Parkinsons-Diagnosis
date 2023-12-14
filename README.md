@@ -29,6 +29,7 @@ The project is in a Jupyter Notebook, divided into cells for a step-by-step anal
 ## Running the Project
 - Clone or download the repository.
 - Install required libraries.
+- Change the path to dataset (df = pd.read_csv('YOUR PATH'))
 - Run the Jupyter Notebook, observing the output of each cell.
 
 ## Results
